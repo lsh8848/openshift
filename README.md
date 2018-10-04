@@ -54,6 +54,7 @@
   }
 }
 
+
 opshift注册地址：https://developers.redhat.com/auth/re...
 
 dockerhub地址：https://hub.docker.com/
