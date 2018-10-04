@@ -26,5 +26,34 @@
 客户端： android Actinium、windows v2ray 可用同一个服务端。
 
 
+配置文件:
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbound": {
+    "protocol": "vmess",
+    "port": 8080,
+    "settings": {
+      "clients": [
+        {
+          "id": "uuid换成你自己的",
+          "alterId": 64,
+          "security": "加密方式自己选"
+        }
+      ]
+    },
+    "streamSettings": {
+      "network": "ws"
+    }
+  },
+  "inboundDetour": [],
+  "outbound": {
+    "protocol": "freedom",
+   "settings": {}
+  }
+}
 
+opshift注册地址：https://developers.redhat.com/auth/re...
 
+dockerhub地址：https://hub.docker.com/
